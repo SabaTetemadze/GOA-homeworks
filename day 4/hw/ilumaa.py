@@ -1,14 +1,14 @@
-mother= 37
-father= 40
-sister= 16
+mother_age = 37
+father_age = 40
+sister_age = 16
 
 #gavida 2 weli
 
-mother= 37+2
-father= 40+2
-sister= 16+2
+mother_age = 37+2
+father_age = 40+2
+sister_age = 16+2
 
 
-print(mother)
-print(father)
-print(sister)
+print(mother_age )
+print(father_age )
+print(sister_age )
