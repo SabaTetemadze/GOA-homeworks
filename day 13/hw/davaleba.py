@@ -1,7 +1,4 @@
 # 1)Write a program that prints numbers from 1 to 10 using a while loop
-i = 0
-while i <= 19:
-    i = i + 1
 
 
 # 2)Write a program that prints the even numbers from 1 to 10 using a for loop
