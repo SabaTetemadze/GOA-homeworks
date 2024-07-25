@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(156, 156, 156);
+    display: flex;
+    font-family:monospace;
+}
+
+div {
+    height: 500px;
+    width: 750px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 15px;
+    transform: translate(400px, 125px);
+}
+h2 {
+    color:rgb(172, 0, 255);
+    transform: translate(40px, 30px);
+}
+#getstarted {
+    width: 100px;
+    height: 33px;
+    background-color: rgb(71, 6, 146);
+    transform: translate(629px, -130px);
+}
+#getstarted h4 {
+    color: white;
+    text-align: center;
+    transform: translateY(8px);
+    font-size: 110%;
+}
+h1 {
+    color: rgb(71, 6, 146);
+    font-size: 40px;
+    transform: translate(40px, -50px);
+}
+#p {
+    color: rgb(104, 67, 146);
+    transform: translate(40px, -50px);
+}
+#button {
+    background-color: rgb(71, 6, 146);
+    width: 150px;
+    height: 44px;
+    border-radius: 20px;
+    transform: translate(40px, -40px);
+}
+#button h3 {
+    color: white;
+    text-align: center;
+    transform: translateY(10px);
+}
+
+
+p {
+    color: rgb(116, 117, 119);
+}
+#p1 {
+    transform: translate(375px, -5px);
+}
+#p2 {
+    transform: translate(435px, -33px);
+}
+#p3 {
+    transform: translate(515px, -61px);
+}
+#p4 {
+    transform: translate(575px, -89px);
+}

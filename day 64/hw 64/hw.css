@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+h1 {
+    color: rgb(252, 252, 252);
+    font-family: monospace;
+    text-align: center;
+    transform: translateY(200px);
+    font-size: 50px;
+}
+#div1 {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(31, 31, 31);
+    transform: translate();
+    border-style: solid;
+    border-color: rgb(86, 91, 93);
+    transform: translate(50%, 200px);
+    border-radius: 25px;
+}
+#div2 {
+    background-color: white;
+    height: 50px;
+    width: 0px;
+    border-radius: 23px;
+    transition-duration: 600ms;
+    /* transition-delay: 300ms; */
+}
+
+#div1:active {
+    #div2 {
+        width: 100%;  
+    }
+
+}

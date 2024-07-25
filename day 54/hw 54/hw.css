@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(192, 192, 192);
+}
+
+div {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    text-align:center;
+    transform: translateX(234%);
+}
+.pne {
+    transform: translateY(230px);
+    border: grey solid;
+    border-radius: 8px;
+    font-size: large;
+    width: 265px;
+}
+h1 {
+    transform: translateY(160px);
+    font-family:monospace ;
+}
+p {
+    color: rgb(55, 55, 255);
+    text-decoration: underline;
+    transform: translate(55px, 220px);
+}
+#input {
+    font-size: larger;
+    transform: translateY(250px);
+    width: 265px;
+    height: 60px;
+    color: white;
+    background-color: rgb(39, 39, 255);
+    border-radius: 10px;
+}
+#p {
+    transform: translateY(250px);
+    text-decoration: none;
+}
