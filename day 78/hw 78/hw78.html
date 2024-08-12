@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            button {
+                transform: translateX(755px);
+                font-size: 25px;
+                background-color: rgb(64, 255, 64);
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>  
+        <br>
+        <p id="p_">0</p>
+        <button id="button" onclick="btn()">add 1</button>
+
+        <script>
+            let p = document.getElementById("p_");
+            p.style.textAlign="center";
+            p.style.fontSize="50px";
+            p.style.fontFamily="sans-serif "
+
+            let count = 1;
+            function btn() {
+                p.innerHTML = count
+                count = count + 1
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+
+<html>
+    <head>
+     <title>Document</title>
+     <style>
+        div {
+            background-color: rgb(200, 200, 200);
+            border-color: rgb(150,150,150);
+            border-style: solid;
+            border-radius: 10px;
+            width: 400px;
+            height: 400px;
+        }
+        #red {
+            background-color: rgb(255, 50, 50);
+            border-radius: 5px;
+        }
+        #green {
+            background-color: rgb(50, 255, 50);
+            border-radius: 5px;
+        }
+        #blue {
+            background-color: rgb(50, 50, 255);
+            border-radius: 5px;
+        }
+        #black {
+            background-color: rgb(100, 100, 100);
+            border-radius: 5px;
+        }
+        #white {
+            background-color: rgb(200, 200, 200);
+            border-radius: 5px;
+        }
+     </style>
+    </head>
+
+    <body>
+        <div id="div">
+            <button id="red" onclick="red()" >Red</button>
+            <button id="green" onclick="green()" >Green</button>
+            <button id="blue" onclick="blue()" >Blue</button>
+            <button id="black" onclick="black()" >Black</button>
+            <button id="white" onclick="white()" >White</button>
+        </div>
+
+        <script>
+            let d = document.getElementById("div");
+            
+            function red() {
+                d.style.backgroundColor="rgb(255, 50, 50)"
+                d.style.borderColor="rgb(205, 50, 50)"
+            }
+            function green() {
+                d.style.backgroundColor="rgb(50, 255, 50)"
+                d.style.borderColor="rgb(50, 205, 50)"
+            }
+            function blue() {
+                d.style.backgroundColor="rgb(50, 50, 255)"
+                d.style.borderColor="rgb(50, 50, 205)"
+            }
+            function black() {
+                d.style.backgroundColor="rgb(50, 50, 50)"
+                d.style.borderColor="rgb(100, 100, 100)"
+            }
+            function white() {
+                d.style.backgroundColor="rgb(200, 200, 200)"
+                d.style.borderColor="rgb(150, 150, 150)"
+            }
+        </script>
+    </body>
+</html>
