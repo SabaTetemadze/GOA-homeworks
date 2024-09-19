@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input id="name" type="text" placeholder="Name">
+        <input id="email" type="email" placeholder="Email">
+        <input id="password" type="password" placeholder="Password">
+        <button id="btn1">Submit</button>
+        <button onclick="clear()" id="btn2">Clear</button>
+    </form>
+
+    <script>
+        let Name = document.getElementById("name")
+        let Email = document.getElementById("email")
+        let Password = document.getElementById("password")
+
+        function clear() {
+            Name.value == ''
+            Email.value == ''
+            Password.value == ''
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+    <textarea max-length="200" rows="" id="textarea"></textarea>
+    <p><span id="counter">0</span> / 200 </p>
+
+
+    <!-- <p>0</p> -->
+    
+
+        <script>
+            // let Textarea = document.getElementById('textarea')
+            // let Span = document.getElementById("counter")
+
+            // textarea.addEventListener("input", TextCount)
+            
+            // function TextCount() {
+            //     Span++
+            //     let CurrentLength = textarea.value.length
+            //     let MaxLength = parseInt(textarea.getAttribute('max-length'))
+
+                
+
+            //     console.log('sssss')
+
+            //     Span.textContent = CurrentLength
+
+            //     if (CurrentLength >= MaxLength) {
+            //         Span.style.color='red'
+            //     } else {
+            //         Span.style.color='black'
+            //     }
+        
+                
+            // }
+            const textarea = document.getElementById('textarea');
+            const counter = document.getElementById('counter');
+
+            textarea.addEventListener('input', updateCounter);
+
+            function updateCounter() {
+                const currentLength = textarea.value.length;
+                const maxLength = parseInt(textarea.getAttribute('maxlength'));
+
+                counter.textContent = currentLength;
+
+                if (currentLength > maxLength) {
+                    counter.style.color = 'red';
+                } else {
+                    counter.style.color = 'black';
+            }
+        }
+    
+        </script>
+
+    </body>
+</html>
