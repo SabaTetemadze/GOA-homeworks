@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <select hover="color()" id="select">
+        <select onclick="color()" id="select">
             <option id='red' value="Red">Red</option>
             <option id='green' value="Green">Green</option>
             <option id='blue' value="Blue">Blue</option>
@@ -28,6 +28,7 @@
 
             function color() {
                 box.style.backgroundColor = select.value
+
             }
         </script>
     </body>
